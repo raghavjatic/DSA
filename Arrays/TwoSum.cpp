@@ -6,7 +6,7 @@
  * Link: https://leetcode.com/problems/two-sum/
  *
  * Author: Raghav Jatic
- * Date: 3rd July 2025
+ * Date: 4th July 2025
  */
 
 #include <iostream>
