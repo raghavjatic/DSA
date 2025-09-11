@@ -4,7 +4,7 @@
  * rotate the image by 90 degrees (clockwise).
  * Link: https://leetcode.com/problems/rotate-image/
  * Author: Raghav Jatic
- * Date: September 2025
+ * Date: 10th September 2025
  */
 
 #include <bits/stdc++.h>
