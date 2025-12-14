@@ -5,7 +5,7 @@
  * Link: https://leetcode.com/problems/climbing-stairs/
  *
  * Author: Raghav Jatic
- * Date: 12th December 2025
+ * Date: 13th December 2025
  */
 
 #include <iostream>
