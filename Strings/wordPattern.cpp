@@ -6,7 +6,7 @@
  * Link: https://leetcode.com/problems/word-pattern/
  *
  * Author: Raghav Jatic
- * Date: 12th December 2025
+ * Date: 19th December 2025
  */
 
 #include <iostream>
