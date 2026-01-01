@@ -7,7 +7,7 @@
  * Link: https://leetcode.com/problems/subsets-ii/
  *
  * Author: Raghav Jatic
- * Date: 23rd December 2025
+ * Date: 1st January 2026
  */
 
 #include <iostream>
