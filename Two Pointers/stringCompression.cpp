@@ -5,8 +5,45 @@
  *              If a character appears only once, only the character is kept.
  * Link: https://leetcode.com/problems/string-compression/
  * Author: Raghav Jatic
- * Date: June 2026
+ * Date: 9th June 2026
  */
+
+
+//Space Compexity o(1) approach:
+// class Solution {
+// public:
+//     int compress(vector<char>& chars) {
+//         string s = "";
+//         int p;
+//         p = 0;
+//         int n = chars.size();
+//         int j = 0;
+//         int ans = 0;
+//         while (p < n) {
+//             int q = p;
+//             char currchar = chars[p];
+//             int currlen = 0;
+//             while (q < n && chars[p] == chars[q]) {
+//                 currlen += 1;
+//                 q += 1;
+//             }
+//             chars[j] = currchar;
+//             j += 1;
+//             if (currlen > 1) {
+
+//                 string cnt = to_string(currlen);
+
+//                 for (char c : cnt) {
+//                     chars[j++] = c;
+//                 }
+//             }
+
+//             p = q;
+//         }
+
+//         return j;
+//     }
+// };
 
 #include <iostream>
 #include <vector>
