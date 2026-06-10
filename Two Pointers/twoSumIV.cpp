@@ -6,6 +6,20 @@
  * Date: 9th June 2026
  */
 
+
+
+//What would a true two-pointer approach be?
+
+// Since the tree is a BST, you can exploit its sorted order.
+
+// Perform an inorder traversal → gives values in ascending order.
+// Then either:
+// Store them in a vector and run two pointers on the vector.
+// Or use two BST iterators:
+// one iterator gives the next smallest value,
+// another gives the next largest value.
+
+
 #include <iostream>
 #include <queue>
 #include <unordered_map>
